@@ -1,19 +1,30 @@
-# Next.js + Tailwind CSS Example
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Tailwind CSS is integrated into the `create-next-app` CLI, which supports TypeScript and JavaScript, as well as the App Router (`app/`) and the pages directory `pages/`.
+## Getting Started
 
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap a project preconfigured with Tailwind CSS:
+First, run the development server:
 
 ```bash
-npx create-next-app --tailwind with-tailwindcss-app
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-```bash
-yarn create next-app --tailwind with-tailwindcss-app
-```
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-```bash
-pnpm create next-app --tailwind with-tailwindcss-app
-```
+## Stacks
+
+* React
+* Next.js
+* Netlify
+
+## Learn More
+
+
+
+## Deploy on Vercel
+
