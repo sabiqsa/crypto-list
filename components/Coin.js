@@ -29,7 +29,7 @@ const Coin = ({ coin }) => {
         <div style={{ flex: 1 }}>
           <Primary>
             {'Rp'}
-            {coin.priceRp.toLocaleString('id-ID')}
+            {coin ? coin?.priceRp?.toLocaleString('id-ID') : '-'}
           </Primary>
           <div style={{ color: coin.change < 0 ? '#f0616d' : '#26ad75' }}>
             {coin.change > 0 && '+'}

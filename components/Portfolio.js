@@ -4,9 +4,15 @@ import BalanceChart from './BalanceChart';
 import { useEffect, useState } from 'react';
 import { coins } from '@/static/coins';
 import Coin from './Coin';
+import useWebSocketHook from '@/utils/useWebSocket';
 
 const Portfolio = ({ sanityTokens }) => {
   const [walletBalance, setWalletBalance] = useState(0);
+  const currencies = useWebSocketHook();
+  const coinData = coins?.map((coin) => ({
+    ...coin,
+    priceRp: currencies?.[coin.key],
+  }));
 
   useEffect(() => {
     const calculateTotalBalance = async () => {
@@ -62,9 +68,9 @@ const Portfolio = ({ sanityTokens }) => {
             </TableItem>
             <Divider />
             <div>
-              {coins.map((coin) => (
+              {coinData?.map((coin) => (
                 <div key={coin.name}>
-                  <Coin coin={coin} />
+                  <Coin coin={coin} currencies={currencies} />
                   <Divider />
                 </div>
               ))}

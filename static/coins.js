@@ -5,6 +5,7 @@ import solLogo from '../assets/sol.png';
 export const coins = [
   {
     name: 'Bitcoin',
+    key: 'bitcoin',
     sign: 'BTC',
     logo: btcLogo,
     balanceRp: 23213,
@@ -15,6 +16,7 @@ export const coins = [
   },
   {
     name: 'Solana',
+    key: 'solana',
     sign: 'SOL',
     logo: solLogo,
     balanceRp: 120.2,
@@ -25,6 +27,7 @@ export const coins = [
   },
   {
     name: 'Ethereum',
+    key: 'ethereum',
     sign: 'ETH',
     logo: ethLogo,
     balanceRp: 232232,
