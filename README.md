@@ -18,13 +18,21 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Stacks
 
-* React
-* Next.js
+* React Next.js
 * Netlify
+* Sanity
+* Thirdweb
+* Metamask
 
-## Learn More
 
+### Features
+#### this app web app have two menus, demo and connect, this app show list data from api, and also the data is dummy, the api data build with sanity. and the chart also is using dummy data.
 
-
-## Deploy on Vercel
+#### menus
+![menus](images/menus.png)
+#### demo
+![demo](images/demo.png)
+#### connect account
+![connect](images/connect.png)
+##### you can connect to your metamask to see the address
 

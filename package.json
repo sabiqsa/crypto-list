@@ -9,10 +9,25 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@3rdweb/hooks": "^1.9.2",
+    "@3rdweb/react": "^1.9.3",
+    "@3rdweb/sdk": "^1.42.1",
+    "@sanity/client": "^6.21.0",
+    "@sanity/image-url": "^1.0.2",
+    "@sanity/vision": "^3.50.0",
+    "chart.js": "^4.4.3",
+    "ethers": "^6.13.1",
+    "install": "^0.13.0",
     "netlify-cli": "^17.33.4",
     "next": "14.2.5",
+    "next-sanity": "^9.4.2",
     "react": "^18",
-    "react-dom": "^18"
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18",
+    "react-icons": "^5.2.1",
+    "react-modal": "^3.16.1",
+    "sanity": "^3.50.0",
+    "styled-components": "^6.1.12"
   },
   "devDependencies": {
     "eslint": "^8",
